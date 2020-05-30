@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+	
+<meta charset="utf-8">
+<title>Eguzkilore</title>
+
+</head>
+
+<body style="background-color:#91C4F2">
+	<style>
+		p 
+		{ 
+			text-align: justify;
+			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+			font-size: 2;
+		}
+		nav
+		{
+			width: 850px;
+			margin: 20px;
+			padding: 10px 30px 20px 30px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		section
+		{
+			width: 900px;
+			margin: 20px;
+			padding: 10px 30px 20px 30px;
+		}
+		figure
+		{
+			display: inline-block;
+			margin-left:auto;
+			margin-right: auto;
+		}
+		#inicio
+		{
+			background-color:#8CA0D7;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#campaña
+		{
+			background-color:#9D79BC;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#preguntas
+		{
+			background-color:#A14DA0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#comentarios
+		{
+			background-color:#7E1F86;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.contenedor {
+  		position: relative;
+		height:100px;
+  		width: 200px;
+		}
+		.contenedor img {
+  		position: absolute;
+		}
+		.contenedor img.top:hover {
+  		opacity: 0;
+		}
+		.collapsible {
+		background-color: gainsboro;
+  		color: black;
+  		cursor: pointer;
+  		padding: 18px;
+  		width: 100%;
+  		border: none;
+  		text-align: center;
+  		outline: none;
+  		font-size: 15px;
+		}	
+
+		.active, .collapsible:hover {
+ 		 background-color: #91C4F2;
+		}
+
+		.content {
+  		padding: 0 18px;
+  		display: none;
+  		overflow: hidden;
+		}
+		
+		.sidenav {
+  		height: 100%; /* Full-height: remove this if you want "auto" height */
+  		width: 100px; /* Set the width of the sidebar */
+  		position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  		z-index: 1; /* Stay on top */
+  		top: 0; /* Stay at the top */
+  		left: 0;
+  		overflow-x: hidden; /* Disable horizontal scroll */
+  		padding-top: 20px;
+		}
+		.sidenav a {
+  		padding: 6px 8px 6px 16px;
+  		text-decoration: none;
+  		font-size: 25px;
+  		color: black;
+		}
+		.sidenav a:hover {
+  		color: lightgoldenrodyellow;
+		}
+		input[type=text], select, textarea {
+  		width: 100%; /* Full width */
+  		padding: 12px; /* Some padding */ 
+  		border: 1px solid #ccc; /* Gray border */
+  		border-radius: 4px; /* Rounded borders */
+  		box-sizing: border-box; /* Make sure that padding and width stays in place */
+  		margin-top: 6px; /* Add a top margin */
+  		margin-bottom: 16px; /* Bottom margin */
+  		resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+		}
+		input[type=submit] {
+ 		background-color: #4CAF50;
+  		color: white;
+  		padding: 12px 20px;
+  		border: none;
+  		border-radius: 4px;
+  		cursor: pointer;
+		}
+		input[type=submit]:hover {
+  		background-color: #45a049;
+		}
+	</style>	
+	
+		<nav id="arriba">
+			<figure class="contenedor">
+				<a href="#inicio">
+					<img src="Botones/Iniciopulsado.png" height="100" width="200" alt="Inicio" />
+					<img class="top" src="Botones/Inicio.png" height="100" width="200" />
+				</a>
+			</figure>
+			<figure class="contenedor">
+				<a href="#campaña">
+					<img src="Botones/CampañaPulsado.png" height="100" width="200" alt="Campaña" />
+					<img class="top" src="Botones/Campaña.png"  height="100" width="200" />
+				</a>
+			</figure>
+			<figure class="contenedor">
+				<a href="#preguntas">
+					<img src="Botones/FaqPulsado.png" height="100" width="200" alt="Preguntas frecuentes"/>
+					<img class="top" src="Botones/Faq.png" height="100" width="200" />
+				</a>
+			</figure>
+			<figure class="contenedor">
+				<a href="#comentarios">
+					<img src="Botones/ComentariosPulsado.png" height="100" width="200" alt="Comentarios"/>
+					<img class="top" src="Botones/Comentarios.png" height="100" width="200" />
+				</a>
+			</figure>
+		</nav>
+			
+		<section id="inicio" > 
+			<button type="button" class="collapsible"><font face="primeraaproximacion" size="+6">EGUZKILORE</font></button>
+			<div class="content">
+			<p style="align-content: center">Metroidvania con toques de investigacion y simulación social ambientado en la mitologia vasca</p>
+			<center><img src="Imagenes/eguzkilore.jpg" widht="700" height="900" alt="caratula" </img>
+				<figcaption>Caratula del juego</figcaption></center>
+				<center><img src="Imagenes/Ficha de Eve final 2.jpeg" widht="700" height="300" alt="Eve" </img><img src="Imagenes/ficha gemma 22 final.jpg" widht="700" height="300" alt="Gemma" </img>
+				<figcaption>Fichas de personajes</figcaption>
+				<img src="Imagenes/Eve en la ciuad.jpg" widht="700" height="300" alt="Eve en ciudad" </img>
+				<img src="Imagenes/Gemma pum.jpeg" widht="700" height="300" alt="Eve" </img>
+				<img src="Imagenes/Thistle.jpg" widht="700" height="300" alt="Eve" </img>
+				<figcaption>Galeria del juego</figcaption></center>
+			<p>Un misterio acecha al pueblo de Thistle, en Inglaterra. Acompaña a Eve Ladrian mientras se ve envuelta en un conflicto en el que se enfrentan fuerzas que ella no puede comprender. Explora la antigua civilización Jende en este metroidvania de acción frenética y resolución de puzzles, mientras descubres quién está detrás de unas extrañas desapariciones en el pueblo. Como si se tratara de una clásica novela visual establece relaciones con los vecinos del pueblo e interrógales. Averigua qué está pasando y recuerda, "El Sol te protegerá"</p>
+			<p>ATENCIÓN: Esta página simula una campaña de crowdfunding de un
+videojuego y no representa un producto real.<br>
+Práctica de Multimedia, 1º GDDV - Curso 19/20 (Quintana), URJC.<br>
+La URJC no se hace responsable del contenido expuesto por el autor. </p>
+				</div>
+		</section>
+		
+		<section id="campaña"> 
+			<button type="button" class="collapsible"><font face="primeraaproximacion" size="+3">Campaña</font></button>
+			<div class="content">
+			<center><img class="centrada" src="Carteles/Video de pesentación Cartel.png" height="100" width="200" alt="Video" </img></center>
+			<center><video height="700" width="700" controls poster="Imagenes/Eve en la ciuad.jpg">
+				<source src="video/Campaña Eguzkilore bueno.mp4" type="video/mp4"/>
+				Tu navegador no soporta este video</video></center>
+			<center><img class="centrada" src="Carteles/Canción original Cartel.png" height="100" width="200" alt="Cancion" </img></center>
+			<center><audio src="musica/Eguzkilore tienda.mp3" width="700" controls>No se puede reproducir este audio en tu navegador.</audio></center>
+			<center><img class="centrada" src="Carteles/Descripción Cartel.png" height="100" width="200" alt="Descripcion" </img></center>
+<p>El género es una mezcla entre metroidvania, tomando un mapa conectado con caminos y atajos y novela visual de investigación, de este coge el desarrollo de personajes mediante interacciones además de la búsqueda de pistas para resolver misterios</p>
+<strong>Sinopsis</strong>
+<p>En el año 20XX en un pueblo inglés llamado Thistle existe una pequeña civilización en decadencia llamada Jende, esta decadencia se debe a la perdida de poder de la deidad Mari debido a una secta que se esta asentando en Thistle y que está arrebatando toda la fe dirigida hacia ella, entre tanto Eve una universitaria que se ha mudado con su tía a Thistle conseguirá tener contacto con Mari que la nombrará su heraldo y la mandará extender su influencia otorgándole su bendición, mientras, en Thistle , se encontrará con extraños casos de muertes y desapariciones que la policía ignora o evita.</p>
+<strong>Jugabilidad</strong>
+<p>Eve contará con la Bendición de Mari con la que podrá revivir dando a cambio su esencia solar, Mientras se encuentre en Jende poseerá un kit de armas cuerpo a cuerpo y habilidades que aumentarán conforme avance el juego, por otro lado, en Thistle deberá investigar las muertas y desapariciones explorando el pueblo en busca de pistas para desenmarañar el misterio que amenaza a este, en esta fase podrá establecer relaciones con los vecinos del pueblo ayudándoles a recuperar fe en Mari lo que también afectará positivamente cuando vuelva a Jende.</p>
+<strong>Mecánica del juego</strong>
+<p>Volviendo a la división del gameplay. En Jende, Eve tiene que recuperar la influencia de La Madre Mari de las garras de la extraña secta que asola el sistema cavernoso en el que viven sus habitantes. El mapa está dividido en áreas, y en cada una de ellas, existe un caudillo sectario que mantiene el control sobre esa zona, la mayoría de las veces estarán ocultos en ruinas cuyo acceso estará restringido hasta que se desbloquee la entrada gracias a las investigaciones en Thistle. En el pueblo, Eve tendrá que investigar unas extrañas muertes y desapariciones que sospecha que están relacionados con la secta que amenaza el pueblo. Podrá también entablar amistades con los vecinos del pueblo mediante la toma de decisiones, lo cual desbloqueará escenas en las que se conocerá más en profundidad a dichos personajes (aunque las necesarias para el arco de cada personaje serán obligatorias).<br>
+La cámara será fija por un lado en Jende, seguirá un scroll lateral desde un ángulo frontal, se oscurecerá conforme menos vida tengas, en Thistle se establecerá un ángulo cenital que se moverá según lo haga el personaje en las 8 direcciones, cambiando a primera persona frontal al investigar algo.<br>
+Se guardará partida rezando en los altares de Mari donde también se desbloqueará el mapa.</p>
+<strong>Categoría</strong>
+<p>‘Eguzkilore’ toma inspiración de juegos como: ‘Hollow Knight’, ‘Super Metroid’, ‘Castlevania Rondo of Blood’, etc. Aprovecha su filosofía de diseño de mapas para crear un mundo interconectado y a la vez coherente y su sistema de progresión y ‘backtracking’ para darle un ritmo adecuado al juego. Sin embargo, se diferencia de ellos en el sistema de combate, más basado en combos precisos entre 3 tipos de ataque (fuerte, medio y flojo) y las interacciones que estos tienen para hacer la mayor cantidad de daño en cada rotación. Además de la capacidad de crear una ‘build’ de personaje acorde al estilo de cada jugador gracias a un sistema de niveles. Por otro lado, la sección de investigación coge influencias de sagas como ‘Ace Attorney’, ‘999’, ‘Ghost Trick’, ‘Hotel Dusk’… La principal diferencia con estos juegos es el cambio en la perspectiva, que pasa de ser una cámara frontal estática, a una perspectiva cenital en tercera persona, haciendo uso de las cámaras frontales para escenas concretas de investigación, además del mayor énfasis que se pone en trabar amistades con los distintos vecinos de Thistle con el aliciente de mejoras en la parte de acción y exploración, como ataques espaciales u otras bonificaciones. Mecánica: Como ya se ha dicho, ‘Eguzkilore’ se divide en dos grandes secciones de gameplay: La de acción y aventuras y la de investigación. En ambas controlaremos a Eve, pero sus capacidades varían en función de si se encuentra en el pueblo Jende o en Thistle. En el primero, dispondrá de las acciones básicas (correr, atacar, saltar, interactuar…) e irá desbloqueando habilidades tanto en el ámbito de combate como en el del movimiento (nuevas técnicas de combate, doble salto, magia…), además podrá curarse con unos matraces recargables. Si se diera el caso en el 7que la barra de vida baje a 0, Eve volverá a la vida a perdiendo en el proceso toda la esencia solar (utilizada para mejorar habilidades, armas…). En Thistle, Eve podrá andar y contará con tres acciones contextuales, hablar, interactuar y presentar; con la que se podrá enseñar algún objeto de interés a la gente del pueblo para que le digan sus opiniones al respecto.</p>
+<strong>Mundo del juego</strong>
+<p>“Antaño existía una antigua civilización que se asentaba en las faldas de las montañas ya que era el lugar de descanso de su diosa madre, Mari. La Madre, tenía la capacidad de viajar entre todas las montañas, no importa cuán lejos estuvieran entre sí, le debía esta capacidad (y otras muchas) a la fe que profesaba su pueblo hacia ella. Sus creyentes, en agradecimiento colgaban de sus puertas una eguzkia, una curiosa flor que solo crecía en los lugares bendecidos por la fertilidad de Mari y que tomaron como su símbolo. Sin embargo, seres de fuera de la Tierra se asentaron amenazando la paz en la que vivía la extraña civilización. Para combatir contra esta extraña invasión Mari ocultó a todos los pueblos en cuevas, y selló un pacto con los invasores mediante el cual tenían prohibido atacar a la gente que mostrara el símbolo de la eguzkia ya que contenía parte de su poder destructivo, pero hubo algunos de los devotos seguidores de Mari que se atrevieron a salir. Esos son los antepasados de la gente de Thistle. O al menos, eso se ha ido contando de generación en generación en mi familia, probablemente no sea más que un cuento para asustar a los niños…” Esta fue la historia que le contaron a Eve al llegar a Thistle y que explica el supuesto origen del pueblo, probablemente los residentes del pueblo crean que solo es una leyenda, sin embargo, Eve descubrirá que esa historia tiene más de real que de cuento.</p>
+
+</p>
+			<center><img class="centrada" src="Carteles/Objetivos a conseguir Cartel.png" height="100" width="200" alt="Objetivos" </img></center>
+				<center><img src="Imagenes/Meta 10000.png" height="200" width="400"</img><img  src="Imagenes/Espada con carteles final.png" height="700" width="700" alt="Objetivos" </img></center>
+			<center><img class="centrada" src="Carteles/Contribuciones Cartel.png"height="100" width="200" alt="Contribuciones" </img></center>
+				<center><img  src="Imagenes/Premius ultimo.png" height="600" width="500" alt="Objetivos" </img></center>
+				<center><img src="Carteles/Equipo Cartel.png" height="100" width="200" alt="Equipo" </img> </center>
+				<center><strong>Marcos Toledo Sanchez</strong></center>
+				<center><strong>Aitor Lebrero Barroso</strong></center>
+				<center><strong>Isabel Escudero Orden</strong></center>
+				<center><strong>Jesús Culebras González</strong></center>
+			</div>
+		</section>
+	
+		<section id="preguntas" > 
+			<button type="button" class="collapsible"><font face="primeraaproximacion" size="+3">Preguntas frecuentes</font></button>
+			<div class="content">
+			<p><strong>¿En que consola va a salir?</strong><br>
+				En switch y pc<br>
+				<strong>¿Cuánto costará?</strong><br>
+				15€ de salida.<br>
+				<strong>¿Habrá DLC?</strong><br>
+				De momento no nos hemos planteado la posibilidad pero si hay interés por parte de los fans sí.<br>
+				<strong>¿Fecha de salida?</strong><br>
+				Estará disponible para finales de 2022.<br>
+				<strong>¿Saldrá en formato físico o solo digital?</strong><br>
+				Solo digital, hasta que no haya progreso en las ventas no podemos arriesgarnos a lanzar copias en físico.<br>
+				<strong>¿Habrá más entregas?</strong><br>
+				Se determinará en función de  las ganancias que obtengamos con esta entrega.</p>
+				</div>
+		</section>
+	
+		<section id="comentarios"> 
+			<button type="button" class="collapsible"><font face="primeraaproximacion" size="+3">Comentarios</font></button>
+			<div id="disqus_thread"></div>
+			<script>
+			
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				
+				var disqus_config = function () {
+				this.page.url = window.location.href; // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = window.location.href; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://eguzkilore-comentarios.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+		</section>
+	
+	<div class="sidenav"><a href="#arriba"><font face="primeraaproximacion">Subir</font></a> </div>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+  			coll[i].addEventListener("click", function() {
+    		this.classList.toggle("active");
+    		var content = this.nextElementSibling;
+    		if (content.style.display === "block") {
+      			content.style.display = "none";
+			} else {
+      			content.style.display = "block";
+    		}
+  		});
+		}
+	</script>
+	<script id="dsq-count-scr" src="//eguzkilore-comentarios.disqus.com/count.js" async></script>
+</body>
+</html>
